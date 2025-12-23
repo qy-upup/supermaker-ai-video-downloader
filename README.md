@@ -1,14 +1,14 @@
 # SuperMaker AI Video Downloader (PHP)
 
-构建指向 https://supermaker.ai/video/ 的外链及 HTML 片段。
+Build tagged links and embeddable HTML that point to https://supermaker.ai/video/.
 
-## 安装
+## Install
 
 ```bash
 composer require supermaker/ai-video-downloader
 ```
 
-## 用法
+## Usage
 
 ```php
 <?php
@@ -20,7 +20,7 @@ $url = Backlinks::buildLink([
     'utm_source' => 'blog',
     'utm_medium' => 'banner',
     'utm_campaign' => 'video',
-    // 默认 path 是 /video/，如需可覆盖:
+    // default path is /video/, override if needed:
     // 'path' => Backlinks::defaultPath(),
 ]);
 
@@ -32,11 +32,11 @@ $html = Backlinks::generateAnchor([
 ```
 
 ## API
-- `Backlinks::buildLink(array $options = [])` 返回 URL，支持 `utm_source`, `utm_medium`, `utm_campaign`, `path`（默认 `/video/`）。
-- `Backlinks::generateAnchor(array $options = [])` 返回 HTML `<a>`，支持 `text`, `rel`, `target`, `class`, `utm`, `path`。
+- `Backlinks::buildLink(array $options = [])` → URL string. Supports `utm_source`, `utm_medium`, `utm_campaign`, `path` (default `/video/`).
+- `Backlinks::generateAnchor(array $options = [])` → HTML `<a>`. Supports `text`, `rel`, `target`, `class`, `utm`, `path`.
 - `Backlinks::defaultPath()` => `/video/`.
 
-## 开发/测试
+## Develop / Test
 
 ```bash
 composer install

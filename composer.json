@@ -1,6 +1,6 @@
 {
   "name": "supermaker/ai-video-downloader",
-  "description": "Generate SuperMaker AI Video Downloader backlinks (links + HTML anchors) pointing to https://supermaker.ai/video/.",
+  "description": "Generate SuperMaker AI Video Downloader links (links + HTML anchors) pointing to https://supermaker.ai/video/.",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -23,7 +23,6 @@
     "supermaker",
     "ai-video",
     "video-downloader",
-    "backlinks",
     "seo",
     "utm"
   ]

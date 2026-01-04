@@ -1,0 +1,14 @@
+{
+  "name": "qy-upup/supermaker-ai-video-downloader",
+  "description": "A robust and reliable PHP library providing seamless integration with the Supermaker AI video platform, enabling programmatic video downloading and management.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "supermakeraivideodownloader\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}

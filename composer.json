@@ -1,0 +1,14 @@
+{
+  "name": "qy-upup/supermaker-ai-video-downloader",
+  "description": "A robust and streamlined library for programmatically downloading videos from Supermaker AI (https://supermaker.ai/video/). Facilitates seamless integration with other applications and workflows.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "supermakeraivideodownloader\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
